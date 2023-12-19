@@ -1,0 +1,34 @@
+.price {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D3D5DE;
+}
+
+.price-p {
+    width: 600px;
+}
+
+.price-but {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #505F98;
+    color: white;
+    transition: all 0.5s;
+}
+
+.price-but:hover {
+    color: black;
+    border: 1px solid #505F98;
+    background: none;
+}
+
+@media screen and (max-width: 616px) {
+    .price-p {
+        width: auto;
+    }
+}
